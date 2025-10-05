@@ -1,0 +1,42 @@
+
+.home{
+
+    background: url('/src/assets/tr.png')right no-repeat;
+}
+
+
+.deroule{
+
+    display: none;
+    
+}
+
+.btn:hover .deroule,.btn:hover .down{
+
+    display: flex;
+}
+
+.btn:hover .up{
+    display: none;
+}
+
+.down{
+    display: none;
+    transition: 0.2s all;
+}
+
+@media screen and  (max-width: 580px ){
+
+    .home{
+        background: url('/src/assets/tr.png') no-repeat center;
+    } 
+    
+}
+
+@media screen and (min-width : 680px) and (max-width:760px) {
+
+    .home{
+        background: url('/src/assets/tr.png') no-repeat right;
+    } 
+
+}
